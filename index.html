@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="Norse-Bold.otf">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="image-container">
+        <div class="banner">
+            <img src="./starship_logo-removebg-preview.png" alt="" id="logo" />
+            <div id="company_name">Moon Parkour</div>
+        </div>
+    </div>
+    <div class="form-container">
+        <p>Back flips while wearing 300lb space suits sound like fun?
+            Leaping tall buildings in a single bound tickle your fancy?
+            Moon parkour is for you!
+        </p><br>
+        <p>Sign up now!</p><br>
+        <form action="">
+            <fieldset>
+                <div class="pair">
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="first_name" id="first_name">
+                </div>
+                <div class="pair">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name" id="last_name">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="pair">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="pair">
+                    <label for="phone_number">Phone Number</label>
+                    <input type="number" name="phone_number" id="phone_number">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="pair">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="pair">
+                    <label for="repeat_password">Confirm Password</label>
+                    <input type="password" name="repeat_password" id="repeat_password" style="height: 25px;">
+                </div>
+            </fieldset>
+
+            <div id="password_warning">* Passwords must match!</div>
+
+            <fieldset>
+                <button type="submit">Create Account</button>
+            </fieldset>
+
+
+        </form>
+        <div class="log_in">Already have an account? <a href="">Log in</a></div>
+    </div>
+</body>
+
+</html>
