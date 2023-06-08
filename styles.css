@@ -22,10 +22,6 @@ body {
     align-items: center;
 }
 
-.form-container {
-    height: 100vh;
-}
-
 .banner {
     font-family: 'Norse-Bold', sans-serif;
     font-size: 75px;
@@ -48,9 +44,10 @@ body {
     display: flex;
     height: 100vh;
     width: 60%;
-    padding: 100px 0px;
+    padding: 50px 0px;
     box-sizing: border-box;
     flex-direction: column;
+    justify-content: flex-start;
     background-color: lightgray;
 }
 
